@@ -1,0 +1,7 @@
+Gaziantep.docx
+*.docx
+.DS_Store
+Thumbs.db
+node_modules/
+.vscode/
+.idea/

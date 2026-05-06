@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://safakyilmaz27-dotcom.github.io/gaziantep-apartman-temizligi/sitemap.xml
+Sitemap: https://gaziantepbinatemizlik.com/sitemap.xml

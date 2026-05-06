@@ -1145,8 +1145,10 @@ a.contact-item:hover {
   border-radius: 12px;
   margin: 30px 0 40px;
 }
-.article-toc h3 {
-  font-size: 16px;
+.article-toc h3,
+.toc-label {
+  font-size: 13px;
+  font-weight: 700;
   margin: 0 0 14px;
   text-transform: uppercase;
   letter-spacing: 0.08em;

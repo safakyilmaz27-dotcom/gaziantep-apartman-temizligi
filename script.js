@@ -26,7 +26,10 @@ function submitForm(e) {
 
   const fields = [];
   form.querySelectorAll('input, select, textarea').forEach(el => {
-    const label = el.placeholder || el.name || '';
+    let label = el.placeholder || el.name || '';
+    if (!label && el.tagName === 'SELECT' && el.options[0] && !el.options[0].value) {
+      label = el.options[0].text;
+    }
     const value = (el.value || '').trim();
     if (value) fields.push(`${label}: ${value}`);
   });

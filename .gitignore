@@ -5,3 +5,6 @@ Thumbs.db
 node_modules/
 .vscode/
 .idea/
+.claude/
+.playwright-mcp/
+og-image-template.html

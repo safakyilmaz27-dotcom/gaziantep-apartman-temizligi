@@ -18,12 +18,26 @@ window.addEventListener('scroll', () => {
   else header.classList.remove('scrolled');
 });
 
-// Form gönderimi (statik site - örnek davranış)
+// Form gönderimi → WhatsApp'a yönlendir
 function submitForm(e) {
   e.preventDefault();
-  const phone = '+905451332859';
-  alert('Talebiniz alındı! En kısa sürede sizi arayacağız.\n\nAcil durumlar için: 0545 133 28 59');
-  e.target.reset();
+  const waNumber = '905451332859';
+  const form = e.target;
+
+  const fields = [];
+  form.querySelectorAll('input, select, textarea').forEach(el => {
+    const label = el.placeholder || el.name || '';
+    const value = (el.value || '').trim();
+    if (value) fields.push(`${label}: ${value}`);
+  });
+
+  const message =
+    'Merhaba, gaziantepbinatemizlik.com üzerinden teklif almak istiyorum.\n\n' +
+    fields.join('\n');
+
+  const url = `https://wa.me/${waNumber}?text=${encodeURIComponent(message)}`;
+  window.open(url, '_blank');
+  form.reset();
   return false;
 }
 

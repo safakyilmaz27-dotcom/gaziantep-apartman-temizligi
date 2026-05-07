@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir C:\\\\claude\\\\temizlik *)",
+      "Bash(python -c \"from docx import Document; doc = Document\\('Gaziantep.docx'\\); [print\\(p.text\\) for p in doc.paragraphs]\")",
+      "PowerShell(Add-Type -AssemblyName System.IO.Compression.FileSystem; $zip = [System.IO.Compression.ZipFile]::OpenRead\\(\"C:\\\\claude\\\\temizlik\\\\Gaziantep.docx\"\\); $entry = $zip.Entries | Where-Object {$_.FullName -eq \"word/document.xml\"}; $stream = $entry.Open\\(\\); $reader = New-Object System.IO.StreamReader\\($stream\\); $content = $reader.ReadToEnd\\(\\); $reader.Close\\(\\); $zip.Dispose\\(\\); $content)",
+      "Bash(where node *)",
+      "Bash(npx --yes http-server -p 8080 -c-1 --silent)",
+      "Bash(curl *)",
+      "PowerShell(try { \\(Invoke-WebRequest -Uri \"http://localhost:8080\" -UseBasicParsing -TimeoutSec 5\\).StatusCode } catch { \"HATA: $_\" })",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git -c user.email=\"safakyilmaz27@gmail.com\" -c user.name=\"safakyilmaz27-dotcom\" commit -m \"Initial commit: Gaziantep Apartman Temizligi website\")",
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "PowerShell(Add-Type -AssemblyName System.IO.Compression.FileSystem; $zip = [System.IO.Compression.ZipFile]::OpenRead\\(\"C:\\\\claude\\\\temizlik\\\\seo.docx\"\\); $entry = $zip.Entries | Where-Object {$_.FullName -eq \"word/document.xml\"}; $stream = $entry.Open\\(\\); $reader = New-Object System.IO.StreamReader\\($stream\\); $content = $reader.ReadToEnd\\(\\); $reader.Close\\(\\); $zip.Dispose\\(\\); $content)",
+      "PowerShell(try { \\(Invoke-WebRequest -Uri \"http://localhost:8080\" -UseBasicParsing -TimeoutSec 5\\).StatusCode; \\(Invoke-WebRequest -Uri \"http://localhost:8080/blog.html\" -UseBasicParsing -TimeoutSec 5\\).StatusCode; \\(Invoke-WebRequest -Uri \"http://localhost:8080/blog/gaziantep-apartman-bina-temizligi-secerken-dikkat.html\" -UseBasicParsing -TimeoutSec 5\\).StatusCode } catch { \"HATA: $_\" })",
+      "Bash(git -c user.email=\"safakyilmaz27@gmail.com\" -c user.name=\"safakyilmaz27-dotcom\" commit -m \"SEO optimizasyonu: schema.org, blog ve kapsamli makale eklendi\")",
+      "Bash(git push *)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_evaluate",
+      "Bash(git -c user.email=\"safakyilmaz27@gmail.com\" -c user.name=\"safakyilmaz27-dotcom\" commit -m \"SEO audit duzeltmeleri: FAQ schema, title/meta kisaltma, font preload, TOC semantik\")",
+      "Bash(git -c user.email=\"safakyilmaz27@gmail.com\" -c user.name=\"safakyilmaz27-dotcom\" commit -m \"Domain guncelleme: tum URL'ler gaziantepbinatemizlik.com'a tasindi\")",
+      "mcp__plugin_playwright_playwright__browser_resize",
+      "Bash(where npx *)",
+      "Bash(npx playwright *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git config *)",
+      "mcp__plugin_playwright_playwright__browser_close"
+    ]
+  }
+}

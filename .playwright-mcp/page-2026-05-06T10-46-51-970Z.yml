@@ -1,0 +1,341 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: Gaziantep'in en temiz binaları bizimle • Haftanın 7 günü hizmet
+    - link "0545 133 28 59" [ref=e5] [cursor=pointer]:
+      - /url: tel:+905451332859
+      - img [ref=e6]
+      - text: 0545 133 28 59
+  - banner [ref=e8]:
+    - generic [ref=e9]:
+      - link "Gaziantep Apartman Temizliği" [ref=e10] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e12]
+        - generic [ref=e16]:
+          - text: Gaziantep
+          - strong [ref=e17]: Apartman Temizliği
+      - navigation [ref=e18]:
+        - link "Anasayfa" [ref=e19] [cursor=pointer]:
+          - /url: "#anasayfa"
+        - link "Hizmetler" [ref=e20] [cursor=pointer]:
+          - /url: "#hizmetler"
+        - link "Hakkımızda" [ref=e21] [cursor=pointer]:
+          - /url: "#hakkimizda"
+        - link "Hizmet Bölgeleri" [ref=e22] [cursor=pointer]:
+          - /url: "#bolgeler"
+        - link "Neden Biz?" [ref=e23] [cursor=pointer]:
+          - /url: "#neden-biz"
+        - link "Blog" [ref=e24] [cursor=pointer]:
+          - /url: blog.html
+        - link "İletişim" [ref=e25] [cursor=pointer]:
+          - /url: "#iletisim"
+      - link "Hemen Ara" [ref=e26] [cursor=pointer]:
+        - /url: tel:+905451332859
+        - img [ref=e27]
+        - generic [ref=e29]: Hemen Ara
+  - generic [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]: ⭐ Gaziantep'in Güvenilir Temizlik Firması
+      - heading "Gaziantep Apartman Temizliği ve Düzenli Çöp Alımı" [level=1] [ref=e34]
+      - paragraph [ref=e35]:
+        - text: Şahinbey, Şehitkamil, Karataş ve Gazikent'te profesyonel
+        - strong [ref=e36]: Gaziantep bina temizliği
+        - text: ", merdiven temizliği ve daire çöp toplama hizmetiyle yanınızdayız. Sigortalı personel, kurumsal hizmet, şeffaf fiyat."
+      - generic [ref=e37]:
+        - link "0545 133 28 59" [ref=e38] [cursor=pointer]:
+          - /url: tel:+905451332859
+          - img [ref=e39]
+          - text: 0545 133 28 59
+        - link "Hizmetlerimiz" [ref=e41] [cursor=pointer]:
+          - /url: "#hizmetler"
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - strong [ref=e44]: 500+
+          - text: Mutlu Apartman
+        - generic [ref=e45]:
+          - strong [ref=e46]: 10+
+          - text: Yıllık Tecrübe
+        - generic [ref=e47]:
+          - strong [ref=e48]: 7/24
+          - text: Hizmet
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - heading "Hızlı Teklif Alın" [level=3] [ref=e51]
+        - paragraph [ref=e52]: 5 dakika içinde dönüş yapıyoruz
+      - generic [ref=e53]:
+        - textbox "Adınız Soyadınız" [ref=e54]
+        - textbox "Telefon Numaranız" [ref=e55]
+        - combobox [ref=e56]:
+          - option "Hizmet Türü Seçin" [selected]
+          - option "Apartman Bina Temizliği"
+          - option "Merdiven Temizliği"
+          - option "Daire Çöp Toplama"
+          - option "Cam Silme"
+          - option "Diğer"
+        - button "Teklif İste" [ref=e57] [cursor=pointer]
+        - generic [ref=e58]:
+          - text: "📞 Veya direkt arayın:"
+          - link "0545 133 28 59" [ref=e59] [cursor=pointer]:
+            - /url: tel:+905451332859
+  - generic [ref=e61]:
+    - generic [ref=e62]:
+      - generic [ref=e63]: ⚡
+      - generic [ref=e64]:
+        - heading "Hızlı Dönüş" [level=4] [ref=e65]
+        - paragraph [ref=e66]: Aramanızdan sonra aynı gün hizmet
+    - generic [ref=e67]:
+      - generic [ref=e68]: 🛡️
+      - generic [ref=e69]:
+        - heading "Sigortalı Personel" [level=4] [ref=e70]
+        - paragraph [ref=e71]: Güvenilir, eğitimli ve sigortalı ekip
+    - generic [ref=e72]:
+      - generic [ref=e73]: 💧
+      - generic [ref=e74]:
+        - heading "Profesyonel Ekipman" [level=4] [ref=e75]
+        - paragraph [ref=e76]: Hijyenik ve çevre dostu malzemeler
+    - generic [ref=e77]:
+      - generic [ref=e78]: 💰
+      - generic [ref=e79]:
+        - heading "Uygun Fiyat" [level=4] [ref=e80]
+        - paragraph [ref=e81]: Şeffaf fiyatlandırma, ek ücret yok
+  - generic [ref=e83]:
+    - generic [ref=e84]:
+      - generic [ref=e85]: HİZMETLERİMİZ
+      - heading "Sunduğumuz Profesyonel Hizmetler" [level=2] [ref=e86]
+      - paragraph [ref=e87]: Apartmanınızın her köşesini titizlikle temizliyor, çöplerinizi düzenli olarak topluyoruz.
+    - generic [ref=e88]:
+      - article [ref=e89]:
+        - generic [ref=e90]: 🏢
+        - heading "Apartman Bina Temizliği" [level=3] [ref=e91]
+        - paragraph [ref=e92]: Giriş, hol, asansör, koridor ve merdivenlerin profesyonel temizliği. Haftalık veya aylık abonelik seçenekleri.
+        - link "Bilgi Al →" [ref=e93] [cursor=pointer]:
+          - /url: tel:+905451332859
+      - article [ref=e94]:
+        - generic [ref=e95]: Popüler
+        - generic [ref=e96]: 🗑️
+        - heading "Daire Çöp Toplama" [level=3] [ref=e97]
+        - paragraph [ref=e98]: Kapınızdan günlük çöp toplama hizmeti. Asansörsüz binalarda da güvenilir, düzenli ve kokusuz çözüm.
+        - link "Bilgi Al →" [ref=e99] [cursor=pointer]:
+          - /url: tel:+905451332859
+      - article [ref=e100]:
+        - generic [ref=e101]: 🪜
+        - heading "Merdiven Temizliği" [level=3] [ref=e102]
+        - paragraph [ref=e103]: Mermer, granit, seramik ve ahşap merdivenler için özel kimyasallarla derinlemesine temizlik.
+        - link "Bilgi Al →" [ref=e104] [cursor=pointer]:
+          - /url: tel:+905451332859
+      - article [ref=e105]:
+        - generic [ref=e106]: 🪟
+        - heading "Cam ve Cephe Temizliği" [level=3] [ref=e107]
+        - paragraph [ref=e108]: Apartman dış cepheleri, ortak alan camları ve aydınlatmaların profesyonel temizliği.
+        - link "Bilgi Al →" [ref=e109] [cursor=pointer]:
+          - /url: tel:+905451332859
+      - article [ref=e110]:
+        - generic [ref=e111]: 🚪
+        - heading "Giriş ve Kapı Temizliği" [level=3] [ref=e112]
+        - paragraph [ref=e113]: Apartman giriş kapıları, paspasları ve giriş halı temizlik hizmetleri.
+        - link "Bilgi Al →" [ref=e114] [cursor=pointer]:
+          - /url: tel:+905451332859
+      - article [ref=e115]:
+        - generic [ref=e116]: 🧴
+        - heading "Dezenfeksiyon" [level=3] [ref=e117]
+        - paragraph [ref=e118]: Ortak kullanım alanları için hijyenik dezenfeksiyon ve ilaçlama uygulamaları.
+        - link "Bilgi Al →" [ref=e119] [cursor=pointer]:
+          - /url: tel:+905451332859
+  - generic [ref=e121]:
+    - generic [ref=e122]:
+      - heading "Apartmanınız İçin Hemen Teklif Alın" [level=2] [ref=e123]
+      - paragraph [ref=e124]: Profesyonel ekibimiz Gaziantep genelinde hizmetinizde.
+    - link "0545 133 28 59" [ref=e125] [cursor=pointer]:
+      - /url: tel:+905451332859
+      - img [ref=e126]
+      - text: 0545 133 28 59
+  - generic [ref=e129]:
+    - generic [ref=e132]:
+      - strong [ref=e133]: 10+
+      - generic [ref=e134]:
+        - text: Yıllık
+        - text: Tecrübe
+    - generic [ref=e135]:
+      - generic [ref=e136]: HAKKIMIZDA
+      - heading "Gaziantep'in Güvenilen Temizlik Çözümü" [level=2] [ref=e137]
+      - paragraph [ref=e138]: 10 yılı aşkın tecrübemizle Gaziantep genelinde apartmanlara, sitelere ve iş yerlerine profesyonel temizlik hizmeti sunuyoruz.
+      - paragraph [ref=e139]: Eğitimli ve sigortalı personelimiz, çevre dostu temizlik ürünlerimiz ve modern ekipmanlarımızla apartmanınızın hijyenini en üst seviyede tutuyoruz. Şeffaf fiyat politikamız ve düzenli hizmet anlayışımızla yüzlerce apartman yöneticisinin tercihi olduk.
+      - list [ref=e140]:
+        - listitem [ref=e141]: ✓ Eğitimli ve deneyimli temizlik ekibi
+        - listitem [ref=e142]: ✓ Sigortalı personel ve hizmet garantisi
+        - listitem [ref=e143]: ✓ Çevre dostu temizlik malzemeleri
+        - listitem [ref=e144]: ✓ Esnek hizmet planları (haftalık/aylık)
+        - listitem [ref=e145]: ✓ Apartman yöneticisi memnuniyeti odaklı
+      - 'link "Bizi Arayın: 0545 133 28 59" [ref=e146] [cursor=pointer]':
+        - /url: tel:+905451332859
+  - generic [ref=e148]:
+    - generic [ref=e149]:
+      - generic [ref=e150]: HİZMET BÖLGELERİMİZ
+      - heading "Gaziantep Genelinde Hizmet" [level=2] [ref=e151]
+      - paragraph [ref=e152]: Şehir merkezindeki tüm ilçe ve mahallelerde profesyonel temizlik hizmeti.
+    - generic [ref=e153]:
+      - generic [ref=e154]:
+        - generic [ref=e155]: 📍
+        - heading "Şehitkamil" [level=3] [ref=e156]
+        - paragraph [ref=e157]: İbrahimli, Sarıgüllük, Beylerbeyi, Sanayi ve tüm Şehitkamil mahalleleri
+      - generic [ref=e158]:
+        - generic [ref=e159]: 📍
+        - heading "Şahinbey" [level=3] [ref=e160]
+        - paragraph [ref=e161]: Belkıs, Bey Mahallesi, Yeditepe, Karşıyaka ve tüm Şahinbey mahalleleri
+      - generic [ref=e162]:
+        - generic [ref=e163]: 📍
+        - heading "Karataş" [level=3] [ref=e164]
+        - paragraph [ref=e165]: Karataş bölgesinin tüm mahalle ve sitelerinde hizmet
+      - generic [ref=e166]:
+        - generic [ref=e167]: 📍
+        - heading "Gazikent" [level=3] [ref=e168]
+        - paragraph [ref=e169]: Gazikent ve çevresindeki tüm apartman ve sitelere hizmet veriyoruz
+  - generic [ref=e171]:
+    - generic [ref=e172]:
+      - generic [ref=e173]: NEDEN BİZİ TERCİH ETMELİSİNİZ?
+      - heading "Bizi Farklı Kılan Nedir?" [level=2] [ref=e174]
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]: "01"
+        - heading "Tecrübeli Ekip" [level=3] [ref=e178]
+        - paragraph [ref=e179]: 10 yılı aşkın deneyimimizle her tip binaya özel temizlik çözümleri sunuyoruz.
+      - generic [ref=e180]:
+        - generic [ref=e181]: "02"
+        - heading "Düzenli Hizmet" [level=3] [ref=e182]
+        - paragraph [ref=e183]: Belirlediğimiz program dahilinde aksamadan, gecikmeden hizmet veriyoruz.
+      - generic [ref=e184]:
+        - generic [ref=e185]: "03"
+        - heading "Hijyen Garantisi" [level=3] [ref=e186]
+        - paragraph [ref=e187]: Profesyonel ürünler ve modern ekipmanlarla en yüksek hijyen standardı.
+      - generic [ref=e188]:
+        - generic [ref=e189]: "04"
+        - heading "Şeffaf Fiyat" [level=3] [ref=e190]
+        - paragraph [ref=e191]: Sürpriz ücret yok. Net, anlaşılır ve uygun fiyat politikası.
+      - generic [ref=e192]:
+        - generic [ref=e193]: "05"
+        - heading "Sigortalı Personel" [level=3] [ref=e194]
+        - paragraph [ref=e195]: Tüm çalışanlarımız sigortalı ve referans kontrolünden geçmiştir.
+      - generic [ref=e196]:
+        - generic [ref=e197]: "06"
+        - heading "7/24 İletişim" [level=3] [ref=e198]
+        - paragraph [ref=e199]: Acil durumlarda bile bize ulaşabilir, hızlı dönüş alabilirsiniz.
+  - generic [ref=e201]:
+    - generic [ref=e202]:
+      - generic [ref=e203]: MÜŞTERİ YORUMLARI
+      - heading "Apartman Yöneticileri Ne Diyor?" [level=2] [ref=e204]
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - generic [ref=e207]: ★★★★★
+        - paragraph [ref=e208]: "\"3 yıldır apartmanımızın temizliğini bu firma yapıyor. Asla aksatmıyorlar, çok titizler. Kesinlikle tavsiye ederim.\""
+        - generic [ref=e209]:
+          - strong [ref=e210]: Mehmet Y.
+          - text: Şehitkamil / Apartman Yöneticisi
+      - generic [ref=e211]:
+        - generic [ref=e212]: ★★★★★
+        - paragraph [ref=e213]: "\"Çöp toplama hizmetleri çok düzenli. Personel çok kibar, kapımızı bile çalmıyorlar. Hizmet kalitesi mükemmel.\""
+        - generic [ref=e214]:
+          - strong [ref=e215]: Ayşe K.
+          - text: Şahinbey / Daire Sakini
+      - generic [ref=e216]:
+        - generic [ref=e217]: ★★★★★
+        - paragraph [ref=e218]: "\"Fiyat-performans olarak Gaziantep'in en iyisi. Apartman yönetiminde toplantıda oybirliğiyle tercih ettik.\""
+        - generic [ref=e219]:
+          - strong [ref=e220]: Hasan D.
+          - text: Karataş / Site Yöneticisi
+  - generic [ref=e222]:
+    - generic [ref=e223]:
+      - generic [ref=e224]: İLETİŞİM
+      - heading "Bize Ulaşın" [level=2] [ref=e225]
+      - paragraph [ref=e226]: Apartmanınız için ücretsiz keşif ve fiyat teklifi almak üzere bize ulaşın.
+      - generic [ref=e227]:
+        - link "📞 Telefon 0545 133 28 59" [ref=e228] [cursor=pointer]:
+          - /url: tel:+905451332859
+          - generic [ref=e229]: 📞
+          - generic [ref=e230]:
+            - generic [ref=e231]: Telefon
+            - strong [ref=e232]: 0545 133 28 59
+        - link "💬 WhatsApp 0545 133 28 59" [ref=e233] [cursor=pointer]:
+          - /url: https://wa.me/905451332859
+          - generic [ref=e234]: 💬
+          - generic [ref=e235]:
+            - generic [ref=e236]: WhatsApp
+            - strong [ref=e237]: 0545 133 28 59
+        - generic [ref=e238]:
+          - generic [ref=e239]: 📍
+          - generic [ref=e240]:
+            - generic [ref=e241]: Hizmet Bölgesi
+            - strong [ref=e242]: Gaziantep Geneli
+        - generic [ref=e243]:
+          - generic [ref=e244]: 🕒
+          - generic [ref=e245]:
+            - generic [ref=e246]: Çalışma Saatleri
+            - strong [ref=e247]: Haftanın 7 günü 08:00 - 22:00
+    - generic [ref=e248]:
+      - heading "Mesaj Gönderin" [level=3] [ref=e249]
+      - generic [ref=e250]:
+        - textbox "Ad Soyad *" [ref=e251]
+        - textbox "Telefon *" [ref=e252]
+      - textbox "Apartman / Site Adı" [ref=e253]
+      - combobox [ref=e254]:
+        - option "İlgilendiğiniz Hizmet" [selected]
+        - option "Apartman Bina Temizliği"
+        - option "Merdiven Temizliği"
+        - option "Daire Çöp Toplama"
+        - option "Cam ve Cephe Temizliği"
+        - option "Dezenfeksiyon"
+        - option "Diğer"
+      - textbox "Mesajınız..." [ref=e255]
+      - button "Mesajı Gönder" [ref=e256] [cursor=pointer]
+  - contentinfo [ref=e257]:
+    - generic [ref=e258]:
+      - generic [ref=e259]:
+        - link "Gaziantep Apartman Temizliği" [ref=e260] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e262]
+          - generic [ref=e266]:
+            - text: Gaziantep
+            - strong [ref=e267]: Apartman Temizliği
+        - paragraph [ref=e268]: Gaziantep'in en temiz binaları bizimle. Profesyonel apartman temizliği ve daire çöp toplama hizmeti.
+      - generic [ref=e269]:
+        - heading "Hizmetlerimiz" [level=4] [ref=e270]
+        - list [ref=e271]:
+          - listitem [ref=e272]:
+            - link "Apartman Bina Temizliği" [ref=e273] [cursor=pointer]:
+              - /url: "#hizmetler"
+          - listitem [ref=e274]:
+            - link "Daire Çöp Toplama" [ref=e275] [cursor=pointer]:
+              - /url: "#hizmetler"
+          - listitem [ref=e276]:
+            - link "Merdiven Temizliği" [ref=e277] [cursor=pointer]:
+              - /url: "#hizmetler"
+          - listitem [ref=e278]:
+            - link "Cam ve Cephe Temizliği" [ref=e279] [cursor=pointer]:
+              - /url: "#hizmetler"
+          - listitem [ref=e280]:
+            - link "Dezenfeksiyon" [ref=e281] [cursor=pointer]:
+              - /url: "#hizmetler"
+      - generic [ref=e282]:
+        - heading "Hizmet Bölgeleri" [level=4] [ref=e283]
+        - list [ref=e284]:
+          - listitem [ref=e285]: Şehitkamil
+          - listitem [ref=e286]: Şahinbey
+          - listitem [ref=e287]: Karataş
+          - listitem [ref=e288]: Gazikent
+      - generic [ref=e289]:
+        - heading "İletişim" [level=4] [ref=e290]
+        - list [ref=e291]:
+          - listitem [ref=e292]:
+            - link "📞 0545 133 28 59" [ref=e293] [cursor=pointer]:
+              - /url: tel:+905451332859
+          - listitem [ref=e294]:
+            - link "💬 WhatsApp" [ref=e295] [cursor=pointer]:
+              - /url: https://wa.me/905451332859
+          - listitem [ref=e296]: 📍 Gaziantep, Türkiye
+          - listitem [ref=e297]: 🕒 7/24 Hizmet
+    - paragraph [ref=e300]: © 2026 Gaziantep Apartman Temizliği · Tüm hakları saklıdır.
+  - generic [ref=e301]:
+    - link "WhatsApp" [ref=e302] [cursor=pointer]:
+      - /url: https://wa.me/905451332859
+      - img [ref=e303]
+    - link "Telefon" [ref=e305] [cursor=pointer]:
+      - /url: tel:+905451332859
+      - img [ref=e306]

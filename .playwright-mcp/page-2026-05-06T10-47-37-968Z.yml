@@ -1,0 +1,163 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: Gaziantep'in en temiz binaları bizimle • Haftanın 7 günü hizmet
+    - link "0545 133 28 59" [ref=e5] [cursor=pointer]:
+      - /url: tel:+905451332859
+      - img [ref=e6]
+      - text: 0545 133 28 59
+  - banner [ref=e8]:
+    - generic [ref=e9]:
+      - link "Gaziantep Apartman Temizliği" [ref=e10] [cursor=pointer]:
+        - /url: index.html
+        - img [ref=e12]
+        - generic [ref=e16]:
+          - text: Gaziantep
+          - strong [ref=e17]: Apartman Temizliği
+      - navigation [ref=e18]:
+        - link "Anasayfa" [ref=e19] [cursor=pointer]:
+          - /url: index.html
+        - link "Hizmetler" [ref=e20] [cursor=pointer]:
+          - /url: index.html#hizmetler
+        - link "Hakkımızda" [ref=e21] [cursor=pointer]:
+          - /url: index.html#hakkimizda
+        - link "Hizmet Bölgeleri" [ref=e22] [cursor=pointer]:
+          - /url: index.html#bolgeler
+        - link "Blog" [ref=e23] [cursor=pointer]:
+          - /url: blog.html
+        - link "İletişim" [ref=e24] [cursor=pointer]:
+          - /url: index.html#iletisim
+      - link "Hemen Ara" [ref=e25] [cursor=pointer]:
+        - /url: tel:+905451332859
+        - img [ref=e26]
+        - generic [ref=e28]: Hemen Ara
+  - generic [ref=e30]:
+    - generic [ref=e31]: 📚 Bilgi Merkezi
+    - heading "Gaziantep Apartman Temizliği Rehberleri" [level=1] [ref=e32]
+    - paragraph [ref=e33]: Bina yöneticileri ve kat malikleri için Gaziantep'te apartman temizliği, bina temizliği ve merdiven temizliği üzerine pratik rehberler ve uzman tavsiyeleri.
+  - generic [ref=e36]:
+    - article [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]: Öne Çıkan
+        - generic [ref=e40]: 🏢
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]: 📅 Mayıs 2026
+          - generic [ref=e44]: ⏱️ 8 dk okuma
+        - heading "Gaziantep'te Profesyonel Apartman ve Bina Temizliği Seçerken Dikkat Edilmesi Gerekenler" [level=2] [ref=e45]:
+          - link "Gaziantep'te Profesyonel Apartman ve Bina Temizliği Seçerken Dikkat Edilmesi Gerekenler" [ref=e46] [cursor=pointer]:
+            - /url: blog/gaziantep-apartman-bina-temizligi-secerken-dikkat.html
+        - paragraph [ref=e47]: Gaziantep'te apartmanınız için doğru temizlik firmasını seçmek; hijyenden maliyete, personel güvenliğinden hizmet sürekliliğine kadar pek çok kritere bağlıdır. Bu rehberde Şahinbey ve Şehitkamil'deki bina yöneticilerinin bilmesi gereken her şeyi ele aldık.
+        - link "Makaleyi Oku →" [ref=e48] [cursor=pointer]:
+          - /url: blog/gaziantep-apartman-bina-temizligi-secerken-dikkat.html
+    - article [ref=e49]:
+      - generic [ref=e51]: 🪜
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]: 📅 Yakında
+          - generic [ref=e55]: ⏱️ 6 dk okuma
+        - 'heading "Gaziantep Merdiven Temizliği: Şahinbey ve Şehitkamil İçin Profesyonel Çözümler" [level=2] [ref=e56]'
+        - paragraph [ref=e57]: Mermer, granit ve seramik merdivenlerin Gaziantep'in toz ve iklim koşullarına uygun temizlenme yöntemleri.
+        - link "Yakında →":
+          - /url: "#"
+    - article [ref=e58]:
+      - generic [ref=e60]: 🗑️
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - generic [ref=e63]: 📅 Yakında
+          - generic [ref=e64]: ⏱️ 5 dk okuma
+        - heading "Gaziantep'te Düzenli Çöp Alımı Hizmeti Neden Şart? Hijyen ve Koku Önleme Rehberi" [level=2] [ref=e65]
+        - paragraph [ref=e66]: Apartman koridorunda biriken çöplerin sağlık riskleri ve düzenli çöp alımının kat maliklerine sağladığı avantajlar.
+        - link "Yakında →":
+          - /url: "#"
+    - article [ref=e67]:
+      - generic [ref=e69]: 📋
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e72]: 📅 Yakında
+          - generic [ref=e73]: ⏱️ 7 dk okuma
+        - 'heading "Bina Yöneticilerinin Bilmesi Gereken: Apartman Temizliği Sıklığı ve Maliyet Hesabı" [level=2] [ref=e74]'
+        - paragraph [ref=e75]: Gaziantep'te bina temizliği için aylık bütçe planlama, hizmet sıklığı ve kat maliki memnuniyeti rehberi.
+        - link "Yakında →":
+          - /url: "#"
+    - article [ref=e76]:
+      - generic [ref=e78]: 🛡️
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - generic [ref=e81]: 📅 Yakında
+          - generic [ref=e82]: ⏱️ 6 dk okuma
+        - heading "Sigortalı Personel Neden Önemli? Gaziantep'te Apartman Temizliği Firması Seçim Kriterleri" [level=2] [ref=e83]
+        - paragraph [ref=e84]: Bina yönetimleri için kurumsal muhatap, personel sigortası ve hizmet garantisinin önemini açıklıyoruz.
+        - link "Yakında →":
+          - /url: "#"
+    - article [ref=e85]:
+      - generic [ref=e87]: 💧
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e90]: 📅 Yakında
+          - generic [ref=e91]: ⏱️ 5 dk okuma
+        - 'heading "Apartman Asansör ve Korkuluk Dezenfeksiyonu: Gaziantep''te Hijyen Standartları" [level=2] [ref=e92]'
+        - paragraph [ref=e93]: Ortak alanlarda mikrop yayılımını önleyen profesyonel dezenfeksiyon süreçleri ve kullanılan ürünler.
+        - link "Yakında →":
+          - /url: "#"
+  - generic [ref=e95]:
+    - generic [ref=e96]:
+      - heading "Apartmanınız İçin Ücretsiz Keşif İsteyin" [level=2] [ref=e97]
+      - paragraph [ref=e98]: Gaziantep'in her bölgesinde profesyonel temizlik hizmeti.
+    - link "0545 133 28 59" [ref=e99] [cursor=pointer]:
+      - /url: tel:+905451332859
+      - img [ref=e100]
+      - text: 0545 133 28 59
+  - contentinfo [ref=e102]:
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - link "Gaziantep Apartman Temizliği" [ref=e105] [cursor=pointer]:
+          - /url: index.html
+          - img [ref=e107]
+          - generic [ref=e111]:
+            - text: Gaziantep
+            - strong [ref=e112]: Apartman Temizliği
+        - paragraph [ref=e113]: Gaziantep'in en temiz binaları bizimle. Profesyonel apartman temizliği ve daire çöp toplama hizmeti.
+      - generic [ref=e114]:
+        - heading "Hizmetlerimiz" [level=4] [ref=e115]
+        - list [ref=e116]:
+          - listitem [ref=e117]:
+            - link "Apartman Bina Temizliği" [ref=e118] [cursor=pointer]:
+              - /url: index.html#hizmetler
+          - listitem [ref=e119]:
+            - link "Daire Çöp Toplama" [ref=e120] [cursor=pointer]:
+              - /url: index.html#hizmetler
+          - listitem [ref=e121]:
+            - link "Merdiven Temizliği" [ref=e122] [cursor=pointer]:
+              - /url: index.html#hizmetler
+          - listitem [ref=e123]:
+            - link "Cam ve Cephe Temizliği" [ref=e124] [cursor=pointer]:
+              - /url: index.html#hizmetler
+          - listitem [ref=e125]:
+            - link "Dezenfeksiyon" [ref=e126] [cursor=pointer]:
+              - /url: index.html#hizmetler
+      - generic [ref=e127]:
+        - heading "Hizmet Bölgeleri" [level=4] [ref=e128]
+        - list [ref=e129]:
+          - listitem [ref=e130]: Şehitkamil
+          - listitem [ref=e131]: Şahinbey
+          - listitem [ref=e132]: Karataş
+          - listitem [ref=e133]: Gazikent
+      - generic [ref=e134]:
+        - heading "İletişim" [level=4] [ref=e135]
+        - list [ref=e136]:
+          - listitem [ref=e137]:
+            - link "📞 0545 133 28 59" [ref=e138] [cursor=pointer]:
+              - /url: tel:+905451332859
+          - listitem [ref=e139]:
+            - link "💬 WhatsApp" [ref=e140] [cursor=pointer]:
+              - /url: https://wa.me/905451332859
+          - listitem [ref=e141]: 📍 Gaziantep, Türkiye
+          - listitem [ref=e142]: 🕒 7/24 Hizmet
+    - paragraph [ref=e145]: © 2026 Gaziantep Apartman Temizliği · Tüm hakları saklıdır.
+  - generic [ref=e146]:
+    - link "WhatsApp" [ref=e147] [cursor=pointer]:
+      - /url: https://wa.me/905451332859
+      - img [ref=e148]
+    - link "Telefon" [ref=e150] [cursor=pointer]:
+      - /url: tel:+905451332859
+      - img [ref=e151]

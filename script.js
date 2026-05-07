@@ -39,8 +39,7 @@ function submitForm(e) {
     fields.join('\n');
 
   const url = `https://wa.me/${waNumber}?text=${encodeURIComponent(message)}`;
-  window.open(url, '_blank');
-  form.reset();
+  window.location.href = url;
   return false;
 }
 

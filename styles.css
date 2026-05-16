@@ -521,14 +521,19 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
   bottom: -120px; right: -80px;
 }
 .promo-band-inner {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 60px;
-  align-items: center;
   position: relative;
   z-index: 1;
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
 }
 .promo-content { animation: fadeUp 0.7s ease both; }
+.promo-headline-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
 .promo-badge {
   display: inline-flex;
   align-items: center;
@@ -541,7 +546,6 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.08em;
-  margin-bottom: 18px;
 }
 .promo-content h2 {
   font-size: 38px;
@@ -562,14 +566,17 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
   line-height: 1.6;
   opacity: 0.95;
   margin-bottom: 22px;
-  max-width: 560px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .promo-list {
   list-style: none;
-  margin: 0 0 28px;
+  margin: 0 auto 28px;
   padding: 0;
-  display: grid;
+  display: inline-grid;
   gap: 10px;
+  text-align: left;
 }
 .promo-list li {
   display: flex;
@@ -596,6 +603,7 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
   gap: 14px;
   flex-wrap: wrap;
   margin-top: 6px;
+  justify-content: center;
 }
 .btn-outline-white {
   background: transparent;
@@ -608,81 +616,32 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
   border-color: var(--white);
 }
 
-.promo-visual {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.promo-car-wrap {
-  position: relative;
-  width: 100%;
-  max-width: 440px;
-  padding: 30px 20px;
-  border-radius: 22px;
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.05));
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 25px 60px rgba(120, 20, 10, 0.35);
-}
 .promo-car {
-  width: 100%;
+  width: 110px;
   height: auto;
-  display: block;
-  filter: drop-shadow(0 14px 22px rgba(0, 0, 0, 0.22));
-  animation: promoCarFloat 4.5s ease-in-out infinite;
+  flex-shrink: 0;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.25));
+  animation: promoCarFloat 4s ease-in-out infinite;
 }
-.promo-car .drops  { animation: promoDrops 2s ease-in-out infinite; transform-origin: center; }
-.promo-car .foam   { animation: promoFoam  3s ease-in-out infinite; transform-origin: center; }
+.promo-car .drops   { animation: promoDrops 2s ease-in-out infinite; }
+.promo-car .foam    { animation: promoFoam 3s ease-in-out infinite; }
 .promo-car .bubbles { animation: promoBubbles 3.5s ease-in-out infinite; transform-origin: 220px 70px; }
 
-.promo-badge-3 {
-  position: absolute;
-  top: -18px;
-  right: -18px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: linear-gradient(145deg, #fef3c7, #fbbf24);
-  color: #7c2d12;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  font-weight: 900;
-  line-height: 1;
-  letter-spacing: -0.04em;
-  border: 4px solid #fff;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
-  transform: rotate(-12deg);
-  z-index: 2;
-  animation: promoPulse 2.2s ease-in-out infinite;
-}
-.promo-badge-3 small {
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 0.18em;
-  margin-top: 2px;
-}
-@keyframes promoPulse {
-  0%, 100% { transform: rotate(-12deg) scale(1); }
-  50%      { transform: rotate(-12deg) scale(1.08); }
-}
 @keyframes promoCarFloat {
   0%, 100% { transform: translateY(0); }
-  50%      { transform: translateY(-6px); }
+  50%      { transform: translateY(-4px); }
 }
 @keyframes promoDrops {
   0%, 100% { opacity: 0.85; }
-  50%      { opacity: 0.35; }
+  50%      { opacity: 0.4; }
 }
 @keyframes promoFoam {
-  0%, 100% { opacity: 0.55; transform: translateY(0); }
-  50%      { opacity: 0.85; transform: translateY(-2px); }
+  0%, 100% { opacity: 0.55; }
+  50%      { opacity: 0.85; }
 }
 @keyframes promoBubbles {
-  0%, 100% { transform: scale(1); opacity: 1; }
-  50%      { transform: scale(1.06); opacity: 0.8; }
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.08); }
 }
 
 .nav-promo {
@@ -1112,15 +1071,11 @@ a.contact-item:hover {
   .cta-band h2 { font-size: 24px; }
 
   .promo-band { padding: 50px 0; }
-  .promo-band-inner { grid-template-columns: 1fr; gap: 36px; text-align: center; }
   .promo-content h2 { font-size: 26px; }
-  .promo-content > p { font-size: 15px; margin-left: auto; margin-right: auto; }
-  .promo-list { max-width: 320px; margin-left: auto; margin-right: auto; text-align: left; }
-  .promo-cta { justify-content: center; }
+  .promo-content > p { font-size: 15px; }
+  .promo-headline-row { flex-direction: column; gap: 10px; }
+  .promo-car { width: 90px; }
   .promo-cta .btn { width: 100%; }
-  .promo-car-wrap { max-width: 360px; padding: 22px 14px; }
-  .promo-badge-3 { width: 80px; height: 80px; font-size: 38px; top: -12px; right: -12px; }
-  .promo-badge-3 small { font-size: 10px; }
   .nav-promo { text-align: center; }
 
   .form-row { grid-template-columns: 1fr; }

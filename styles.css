@@ -494,6 +494,175 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
 .cta-band p { opacity: 0.85; font-size: 16px; }
 
 /* ============================================
+   Kampanya Bandı (Promo)
+   ============================================ */
+.promo-band {
+  position: relative;
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f59e0b 0%, #ea580c 50%, #dc2626 100%);
+  color: var(--white);
+  overflow: hidden;
+}
+.promo-decor {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.35;
+  pointer-events: none;
+}
+.promo-decor-1 {
+  width: 380px; height: 380px;
+  background: #fde68a;
+  top: -150px; left: -100px;
+}
+.promo-decor-2 {
+  width: 320px; height: 320px;
+  background: #fca5a5;
+  bottom: -120px; right: -80px;
+}
+.promo-band-inner {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 60px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.promo-content { animation: fadeUp 0.7s ease both; }
+.promo-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 18px;
+}
+.promo-content h2 {
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -0.02em;
+  margin-bottom: 18px;
+}
+.promo-highlight {
+  background: linear-gradient(120deg, #fef3c7 0%, #fde68a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+.promo-content > p {
+  font-size: 17px;
+  line-height: 1.6;
+  opacity: 0.95;
+  margin-bottom: 22px;
+  max-width: 560px;
+}
+.promo-list {
+  list-style: none;
+  margin: 0 0 28px;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+.promo-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.promo-list li span {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 13px;
+}
+.promo-cta {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+.btn-outline-white {
+  background: transparent;
+  color: var(--white);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.btn-outline-white:hover {
+  background: var(--white);
+  color: #dc2626;
+  border-color: var(--white);
+}
+
+.promo-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.promo-circle {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(12px);
+  border: 3px dashed rgba(255, 255, 255, 0.55);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  box-shadow: 0 25px 60px rgba(220, 38, 38, 0.4);
+  animation: promoPulse 3s ease-in-out infinite;
+}
+.promo-number {
+  font-size: 130px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.promo-label {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  margin-top: 6px;
+}
+.promo-free {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  opacity: 0.85;
+  margin-top: 4px;
+}
+@keyframes promoPulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 25px 60px rgba(220, 38, 38, 0.4); }
+  50%      { transform: scale(1.04); box-shadow: 0 30px 70px rgba(220, 38, 38, 0.55); }
+}
+
+.nav-promo {
+  background: linear-gradient(135deg, #f59e0b, #dc2626);
+  color: var(--white) !important;
+  padding: 6px 14px !important;
+  border-radius: 20px;
+  font-weight: 700;
+}
+.nav-promo:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(220, 38, 38, 0.4); }
+
+/* ============================================
    Hakkımızda
    ============================================ */
 .about { padding: 100px 0; background: var(--white); }
@@ -909,6 +1078,18 @@ a.contact-item:hover {
   .cta-band { padding: 40px 0; text-align: center; }
   .cta-band-inner { flex-direction: column; }
   .cta-band h2 { font-size: 24px; }
+
+  .promo-band { padding: 50px 0; }
+  .promo-band-inner { grid-template-columns: 1fr; gap: 36px; text-align: center; }
+  .promo-content h2 { font-size: 26px; }
+  .promo-content > p { font-size: 15px; margin-left: auto; margin-right: auto; }
+  .promo-list { max-width: 320px; margin-left: auto; margin-right: auto; text-align: left; }
+  .promo-cta { justify-content: center; }
+  .promo-cta .btn { width: 100%; }
+  .promo-circle { width: 220px; height: 220px; }
+  .promo-number { font-size: 100px; }
+  .promo-label { font-size: 13px; }
+  .nav-promo { text-align: center; }
 
   .form-row { grid-template-columns: 1fr; }
   .contact-form { padding: 26px; }

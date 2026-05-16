@@ -39,7 +39,18 @@ function submitForm(e) {
     fields.join('\n');
 
   const url = `https://wa.me/${waNumber}?text=${encodeURIComponent(message)}`;
-  window.location.href = url;
+
+  if (typeof gtag === 'function') {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18098874554/gdk-CLzprq4cELrRm7ZD',
+      'value': 50.0,
+      'currency': 'TRY',
+      'event_callback': function () { window.location.href = url; }
+    });
+    setTimeout(function () { window.location.href = url; }, 1500);
+  } else {
+    window.location.href = url;
+  }
   return false;
 }
 

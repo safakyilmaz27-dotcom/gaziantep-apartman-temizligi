@@ -528,12 +528,6 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
   text-align: center;
 }
 .promo-content { animation: fadeUp 0.7s ease both; }
-.promo-headline-row {
-  display: inline-flex;
-  align-items: center;
-  gap: 14px;
-  margin-bottom: 18px;
-}
 .promo-badge {
   display: inline-flex;
   align-items: center;
@@ -546,6 +540,12 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.08em;
+  margin-bottom: 18px;
+}
+.promo-content h2 .promo-car {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 12px;
 }
 .promo-content h2 {
   font-size: 38px;
@@ -617,10 +617,9 @@ button, input, select, textarea { font-family: inherit; font-size: inherit; }
 }
 
 .promo-car {
-  width: 110px;
+  width: 70px;
   height: auto;
-  flex-shrink: 0;
-  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25));
   animation: promoCarFloat 4s ease-in-out infinite;
 }
 .promo-car .drops   { animation: promoDrops 2s ease-in-out infinite; }
@@ -1073,8 +1072,8 @@ a.contact-item:hover {
   .promo-band { padding: 50px 0; }
   .promo-content h2 { font-size: 26px; }
   .promo-content > p { font-size: 15px; }
-  .promo-headline-row { flex-direction: column; gap: 10px; }
-  .promo-car { width: 90px; }
+  .promo-car { width: 54px; }
+  .promo-content h2 .promo-car { margin-left: 8px; }
   .promo-cta .btn { width: 100%; }
   .nav-promo { text-align: center; }
 

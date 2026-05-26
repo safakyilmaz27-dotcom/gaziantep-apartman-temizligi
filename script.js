@@ -41,6 +41,18 @@ function submitForm(e) {
   const url = `https://wa.me/${waNumber}?text=${encodeURIComponent(message)}`;
 
   if (typeof gtag === 'function') {
+    const telInput = form.querySelector('input[type="tel"]');
+    const rawPhone = telInput ? (telInput.value || '').replace(/\D/g, '') : '';
+    let phoneE164 = '';
+    if (rawPhone) {
+      if (rawPhone.startsWith('90') && rawPhone.length === 12) phoneE164 = '+' + rawPhone;
+      else if (rawPhone.startsWith('0') && rawPhone.length === 11) phoneE164 = '+9' + rawPhone;
+      else if (rawPhone.length === 10) phoneE164 = '+90' + rawPhone;
+      else phoneE164 = '+' + rawPhone;
+    }
+    if (phoneE164) {
+      gtag('set', 'user_data', { phone_number: phoneE164 });
+    }
     gtag('event', 'conversion', {
       'send_to': 'AW-18098874554/gdk-CLzprq4cELrRm7ZD',
       'value': 50.0,

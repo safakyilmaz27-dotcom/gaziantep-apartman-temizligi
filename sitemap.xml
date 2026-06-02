@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gaziantepbinatemizlik.com/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://gaziantepbinatemizlik.com/blog.html</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -81,6 +81,36 @@
   <url>
     <loc>https://gaziantepbinatemizlik.com/blog/gaziantep-temizlik-sirketleri-2026.html</loc>
     <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gaziantepbinatemizlik.com/blog/gaziantep-bina-temizligi-fiyatlari-2026.html</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gaziantepbinatemizlik.com/blog/bina-temizligi-nasil-yapilir-rehber.html</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gaziantepbinatemizlik.com/blog/gaziantep-bina-dis-cephe-cam-temizligi.html</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gaziantepbinatemizlik.com/blog/gaziantep-site-temizligi-yonetim-hizmeti.html</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://gaziantepbinatemizlik.com/blog/bina-temizlik-malzemeleri-ekipmanlari-rehberi.html</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

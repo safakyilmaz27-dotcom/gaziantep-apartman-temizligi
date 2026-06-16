@@ -3,6 +3,8 @@ Gaziantep.docx
 .DS_Store
 Thumbs.db
 node_modules/
+.env
+.env.local
 .vscode/
 .idea/
 .claude/

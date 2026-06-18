@@ -10,3 +10,7 @@ node_modules/
 .claude/
 .playwright-mcp/
 og-image-template.html
+
+# Reklam/çalışma ekran görüntüleri — siteye dahil değil, deploy edilmemeli
+*.png
+!og-image.png
